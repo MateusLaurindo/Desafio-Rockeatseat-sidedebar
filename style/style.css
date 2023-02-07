@@ -1,22 +1,89 @@
-.trocar{
-  background-color: red;
+.texto1{
+  position: absolute;
+  margin-left: 50px;
+}
+.texto-aparecer{
+  margin-left: 180px;
+  transition: 0.7s;
 }
 .menu-opcoes{
   background-color: var(--green);
   height: 100vh;
-  width: 3rem;
+  width: 45px;
+  overflow-x: hidden;
+}
+.logo{
+  display: none;
+}
+.logo-real{
+  background: var(--green);
+  padding: 10px;
+  display: block;
+  transition: 0.5s;
+  position: absolute;
 }
 .botao-cor{
   background: var(--green);
   border: none;
   padding: 10px;
+  
+}
+.botao-mover{
+  background: var(--green);
+  border: none;
+  padding: 10px;
+  margin-left: 6.5rem;
+  transition: 1s;
+
+}
+.botao-cor:hover{
+  cursor:pointer;
 }
 .menu-item{
-  background-color: var(--green);
   padding: 10px;
 }
 .menu-exit{
   margin-top: 50.8vh;
-  padding: 10px;
   background-color: var(--light-green);
+}
+.info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  
+}
+.info:hover{
+  cursor: pointer;
+  background-color: var(--light-green);
+}
+
+.trocar{
+  width: 170px;
+  transition: 1s;
+}
+.perfil-foto{
+  width: 3.2rem;
+  padding: 5px;
+  border-radius: 12px;
+  transition: 1s;
+  
+}
+.saida{
+  padding: 10px;
+}
+.saida-ativo{
+  margin-left: 8rem;
+  transition: 1s;
+  padding: 10px;
+}
+.info-saida{
+  display: none;
+}
+.info-saida-mover{
+  width: 4rem;
+  position: absolute;
+  transition: 1s;
+  display:flex;
+
 }

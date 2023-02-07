@@ -16,40 +16,50 @@
   rel="stylesheet">
 
 <body>
-  <div class="menu-opcoes">
-    <button onclick="clicou()" class="botao-cor"><img src="./images/menu.svg"></button>
-    <p>
-    <nav>
-      <div>
-      <p class="menu-item"><img src="./images/search.svg"></p>
-        <input>
-      </div>
-      <div>
-        <p class="menu-item"><img src="./images/grid.svg"></p>
-        <span>Dashboad</span>
-      </div>
-      <div>
-        <p class="menu-item"><img src="./images/pet.svg"></p>
-        <span>pets</span>
-      </div>
-      <div>
-        <p class="menu-item"><img src="./images/user.svg"></p>
-         <span>clientes</span>
-      </div>
-      <div>
-        <p class="menu-item"><img src="./images/vet.svg"></p>
-         <span>vets</span>
-      </div>
-      <div>
-        <p class="menu-item"><img src="./images/settings.svg"></p>
-         <span>ajustes</span>
-      </div>
-      <div>
-        <p class="menu-exit"><img src="./images/log-out.svg"></p>
-      </div>
-    </nav>
+  <header class="texto1">
+    <h1>Dashboard</h1>
+  </header>
+  <nav class="menu-opcoes" id="menu">
+    <img class="logo" src="images/logo.svg">
 
-    <script src="script.js"></script>
+    <button onclick="clicou()" class="botao-cor"><img src="./images/menu.svg"></button>
+    <div class="info">
+      <p class="menu-item"><img src="./images/search.svg"></p>
+      <span>Buscar</span>
+    </div>
+
+    <div class="info">
+      <p class="menu-item"><img src="./images/grid.svg"></p>
+      <span>Dashboad</span>
+    </div>
+    <div class="info">
+      <p class="menu-item"><img src="./images/pet.svg"></p>
+      <span>Pets</span>
+    </div>
+
+    <div class="info">
+      <p class="menu-item"><img src="./images/user.svg"></p>
+      <span>Clientes</span>
+    </div>
+
+    <div class="info">
+      <p class="menu-item"><img src="./images/vet.svg"></p>
+      <span>Vets</span>
+    </div>
+
+    <div class="info">
+      <p class="menu-item"><img src="./images/settings.svg"></p>
+      <span>Ajustes</span>
+    </div>
+    <div class="menu-exit">
+      <div class="info-saida">
+        <img class="perfil-foto" src="./images/photo.jpg">
+        <span>Eleanor Pena</span>
+      </div>
+      <img  class='saida'src="./images/log-out.svg">
+    </div>
+  </nav>
+  <script src="script.js"></script>
 </body>
 
 </html>
